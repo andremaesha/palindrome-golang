@@ -63,6 +63,7 @@ func TestPalinDromeWithoutReverseString(t *testing.T) {
 	})
 }
 
+// recursive function
 func isPalingdromeRecursive(value string, i int) bool {
 	if i < len(value)/2 {
 		firstIndex := string(value[i])
