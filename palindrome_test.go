@@ -22,7 +22,7 @@ func TestPalinDromeWithReverseString(t *testing.T) {
 		assert.False(t, isPalindrome("ab"), "Result Should return false")
 		assert.False(t, isPalindrome("abab"), "Result Should return false")
 		assert.False(t, isPalindrome("kodcok"), "Result Should return false")
-		assert.False(t, isPalindrome("andre"), "Result Should return false")
+		assert.False(t, isPalindrome("moon"), "Result Should return false")
 	})
 
 	t.Run("true test", func(t *testing.T) {
